@@ -83,6 +83,12 @@ Open the ”~/.zshrc” file in your desired editor and modify the plugins line 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 Load these new plugins by running:
 
+13. Install colorls which will enhance the file listing
+sudo gem install colorls
+
+Open the ”~/.zshrc” file in your desired editor and modify the plugins line to what you see below.
+alias colorls='colorls'
+
 source ~/.zshrc
 
 You’re Done!
