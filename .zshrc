@@ -116,6 +116,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls="clear"
+alias ls="colorls"
 
 # Git shortcuts
 alias gd="git diff"
